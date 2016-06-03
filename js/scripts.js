@@ -20,6 +20,14 @@ $(document).ready(function() {
    alert("hi")
    $("#morocco").show();
  }
+ if ( age >= 31 && (beverage === "Coffee") && (movie === "c" || movie === "d") ) {
+   alert("yo");
+   $("#australia").show();
+}
+else if ( age <= 30 && (beverage === "Coffee") && (movie === "c" || movie === "d") ) {
+  alert("hi")
+  $("#honolulu").show();
+}
  else if (age >= 31 && (beverage === "Juice" || beverage === "Milk") && movie != "d" ) {
     alert("Whats up")
     $("#honolulu").show();
