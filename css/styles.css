@@ -1,0 +1,45 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Hammersmith+One);
+
+#honolulu, #france, #morocco {
+    display: none;
+  }
+
+.jumbotron {
+  background-color: #A6DED6;
+  color: #4A4F52;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 3em;
+ }
+.jumbotron h2 {
+  font-size: 2em;
+ }
+.jumbotron p {
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: .5em;
+  text-align: left;
+ }
+#header {
+  margin: 2% 2% 2% 2%;
+  padding: 4px 4px 4px 4px;
+  background-image: url(../img/morocco.jpg);
+  background-repeat: repeat;
+  color: black;
+ }
+ #header p {
+  text-align: center;
+  color: black;
+ }
+
+body {
+  background-image: url("../img/colorfade2.png");
+  background-repeat: no-repeat;
+}
+ .container {
+  max-width: 80%
+ }
