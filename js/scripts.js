@@ -9,46 +9,41 @@ $(document).ready(function() {
       $("#honolulu").hide();
       $("#france").hide();
       $("#morocco").hide();
+      $("#australia").hide();
 
 
-  if ( age >= 31 && beverage === "Coffee" && movie === "c" ) {
+  if ( age >= 31 && (beverage === "Coffee" || beverage === "Tea") && (movie === "a" || movie === "b") ) {
     alert("yo");
     $("#france").show();
  }
- else if ( age <= 30 && beverage === "Coffee" && movie != "c" ) {
+ else if ( age <= 30 && (beverage === "Coffee" || beverage === "Tea") && (movie === "a" || movie === "b") ) {
    alert("hi")
    $("#morocco").show();
  }
- else if (age >= 31 && beverage != "Coffee" && movie != "d" ) {
+ else if (age >= 31 && (beverage === "Juice" || beverage === "Milk") && movie != "d" ) {
     alert("Whats up")
     $("#honolulu").show();
 }
-else if (age <= 30 && beverage != "Coffee" && movie!= "d") {
+else if (age <= 30 && (beverage === "Juice" || beverage === "Milk") && movie != "d" ) {
   alert("Whats 2")
-  $("#honolulu").show();
+  $("#australia").show();
 }
+else if (age >= 31 && (beverage === "Juice" || beverage === "Tea") && movie === "d" ) {
+   alert("Whats up11")
+   $("#morocco").show();
+}
+ else if (age <= 30 && (beverage === "Juice" || beverage === "Coffee") && movie === "d" ) {
+   alert("Whats 21")
+   $("#australia").show();
+}
+else if (age >= 31 && beverage != "Tea" && movie === "d" ) {
+   alert("Whats up112")
+   $("#australia").show();
+}
+else if (age <= 30 && beverage != "Juice" && movie === "d" ) {
+   alert("Whats up113")
+   $("#honolulu").show();
+ }
 
- //   else if ( age <= 30 && beverage === "Tea" || "Coffee" && rain === "1" || "3" && movie === "a" || "b" ) {
- //    alert("go");
- //    $("#morocco").show();
- //  }
- //
- //  else if ( age >= 31 && beverage != ("Tea" || "Coffee") && rain === ("1" || "2") && movie === ("a" || "c") ) {
- //    alert("hi");
- //    $("#honolulu").show();
- //  }
- //  else if ( age < 40 && beverage === "Milk" && movie === "b" ) {
- //   alert("Hello");
- //   $("#france").show();
- // }
- // // // else if ( age < 40 && beverage === "Tea" && rain === "3" && movie !== "c" ) {
- // // //   alert("what's up!");
- // // //   $("#morocco").show();
- // //
- // //
- // if ( age >= 35 && beverage === "Juice" && rain === "1" ) {
- //   alert("hi");
- //   $("#honolulu").show();
- // // }
 });
 });
