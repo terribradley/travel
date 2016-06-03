@@ -24,14 +24,13 @@
   font-weight: .5em;
   text-align: left;
  }
-#header {
+#heading {
   margin: 2% 2% 2% 2%;
   padding: 4px 4px 4px 4px;
-  background-image: url(../img/morocco.jpg);
-  background-repeat: repeat;
+  background-color: slateblue;
   color: black;
  }
- #header p {
+ #heading p {
   text-align: center;
   color: black;
  }
