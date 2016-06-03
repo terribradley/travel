@@ -51,7 +51,7 @@
 /**********body**********/
 body {
   background-image: url("../img/colorfade2.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
  .container {
   max-width: 80%
