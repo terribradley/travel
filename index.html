@@ -12,62 +12,81 @@
       <h1>Hello!</h1>
       <h1>Welcome to Terri's Travel Services!</h1>
     </div>
-  <div class="container">
-    <div class="jumbotron" id="formContainer">
-      <div class="row">
-        <div class="col-sm-6">
-          <p>So you've decided to finally take the much needed time off that you've been talking about for years, but you've been working so much you haven't figured out where to go.</p>
-          <h1>Answer these quick questions and we'll help you!</h1>
+    <div class="container">
+      <div class="jumbotron" id="formContainer">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>So you've decided to finally take the much needed time off that you've been talking about for years, but you've been working so much you haven't figured out where to go.</p>
+            <h1>Answer these quick questions and we'll help you!</h1>
+          </div>
+          <div class="col-sm-6">
+            <form>
+              <div class="form-group">
+                <label for="age">Enter your age, please.</label>
+                <input id="age" class="form-control" type="text" placeholder="Age">
+              </div>
+                <h2>Select an answer from the options that best suits you.</h2>
+                <p>What do you prefer to drink in the mornings?</p>
+              <select class="form-control" id="beverage">
+                <option>Coffee</option>
+                <option>Tea</option>
+                <option>Juice</option>
+                <option>Mamosa</option>
+              </select>
+                <p>What is you favorite season?</p>
+              <select class="form-control" id="season">
+                <option>Spring</option>
+                <option>Summer</option>
+                <option>Fall</option>
+                <option>Winter</option>
+              </select>
+                <p>When it is raining, what would you do:</p>
+              <select class="form-control" id="rain">
+                <option value="1">Stay home to relax with some pillows and maybe a movie.</option>
+                <option value="2">Go for an epic hike anyways! What's a little mud!?</option>
+                <option value="3">Walk around the local art museum. They've got a great collection!</option>
+                <option value="4">Do all those errands you've been meaning to do. Pay those library fines!</option>
+              </select>
+                <p>Speaking of movies, what is your favorite kind?</p>
+              <select class="form-control" id="movie">
+                <option  value="a">Romantic Comedy</option>
+                <option value="b">Mystery</option>
+                <option value="c">Action</option>
+                <option value="d">Scary</option>
+              </select>
+              <button type="submit" class="btn btn-default" id="travelSubmit">Where should I go?</button>
+            </form>
+          </div>
         </div>
-      <div class="col-sm-6">
-      <form>
-        <div class="form-group">
-          <label for="age">Enter your age, please.</label>
-          <input id="age" class="form-control" type="text" placeholder="Age">
-        </div>
-          <h2>Select an answer from the options that best suits you.</h2>
-          <p>What do you prefer to drink in the mornings?</p>
-        <select class="form-control" id="beverage">
-          <option>Coffee</option>
-          <option>Tea</option>
-          <option>Juice</option>
-          <option>Milk</option>
-        </select>
-          <p>When it is raining, what would you do:</p>
-        <select class="form-control" id="rain">
-          <option value="1">Stay home to relax with some pillows and maybe a movie.</option>
-          <option value="2">Go for an epic hike anyways! What's a little mud!?</option>
-          <option value="3">Walk around the local art museum. They've got a great collection!</option>
-          <option value="4">Do all those errands you've been meaning to do. Pay those library fines!</option>
-        </select>
-          <p>Speaking of movies, what is your favorite kind?</p>
-        <select class="form-control" id="movie">
-          <option  value="a">Romantic Comedy</option>
-          <option value="b">Mystery</option>
-          <option value="c">Action</option>
-          <option value="d">Scary</option>
-        </select>
-        <button type="submit" class="btn btn-default" id="travelSubmit">Where should I go?</button>
-      </form>
-    </div>
-    </div>
-    </div>
-    <div class="row">
-        <div id="honolulu">
-          <h2>Hawai'i would be the perferct place for you!</h2>
-        </div>
+      </div>
+      <div class="row" id="destinationText">
+
+
+
+
+          <div class="row" id-"honolulu">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="img/hawaii.jpg" alt="hawiaan beach">
+                <div class="caption">
+                  <h3>HAWAI'I</h3>
+                  <p>You need some tropical weather and fun in the sun!</p>
+                  <p><a href="https://www.aa.com/homePage.do" class="btn btn-default" role="button">Take me there!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         <div id="australia">
           <h2>Australia would be the perferct place for you!</h2>
         </div>
         <div id="france">
           <h2>France would be the perferct place for you!</h2>
         </div>
-
-
         <div id="morocco">
           <h2>Morocco would be the perferct place for you!</h2>
         </div>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

@@ -28,13 +28,13 @@ else if ( age <= 30 && (beverage === "Coffee") && (movie === "c" || movie === "d
   alert("hi")
   $("#honolulu").show();
 }
- else if (age >= 31 && (beverage === "Juice" || beverage === "Milk") && movie != "d" ) {
+ else if (age >= 31 && (beverage === "Juice" || beverage === "Mamosa") && movie != "d" ) {
     alert("Whats up")
     $("#honolulu").show();
 }
-else if (age <= 30 && (beverage === "Juice" || beverage === "Milk") && movie != "d" ) {
+else if (age <= 30 && (beverage === "Juice" || beverage === "Mamosa") && movie != "d" ) {
   alert("Whats 2")
-  $("#australia").show();
+  $("#france").show();
 }
 else if (age >= 31 && (beverage === "Juice" || beverage === "Tea") && movie === "d" ) {
    alert("Whats up11")
@@ -50,7 +50,7 @@ else if (age >= 31 && beverage != "Tea" && movie === "d" ) {
 }
 else if (age <= 30 && beverage != "Juice" && movie === "d" ) {
    alert("Whats up113")
-   $("#honolulu").show();
+   $("#france").show();
  }
 
 });
