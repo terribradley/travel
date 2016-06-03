@@ -1,0 +1,58 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lobster|Asap:400,700|Francois+One);
+#honolulu, #france, #morocco, #australia {
+    display: none;
+}
+/**************form***********/
+.jumbotron {
+  background-color: #A6DED6;
+  color: #4A4F52;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 3em;
+ }
+.jumbotron h2 {
+  font-size: 2em;
+ }
+.jumbotron p {
+  font-family: 'Francois One', sans-serif;
+  font-weight: .5em;
+  text-align: left;
+ }
+ label {
+   font-family: 'Francois One', sans-serif;
+
+ }
+ /*********greeting*******/
+#heading {
+  margin: 2% 2% 2% 2%;
+  padding: 4px 4px 4px 4px;
+  background-image:url(../img/header.jpg);
+  background-repeat: repeat;
+  color: #9C7D02;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  padding-bottom: 100px;
+ }
+/********reveal********/
+.thumbnail {
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  background-color: #A6DED6;
+  padding: 25px 4px 4px 4px;
+
+
+}
+
+/**********body**********/
+body {
+  background-image: url("../img/colorfade2.png");
+  background-repeat: repeat;
+}
+ .container {
+  max-width: 80%
+ }
