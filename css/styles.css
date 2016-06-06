@@ -1,10 +1,9 @@
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Hammersmith+One);
-
+@import url(https://fonts.googleapis.com/css?family=Lobster|Asap:400,700|Francois+One);
 #honolulu, #france, #morocco, #australia {
     display: none;
-  }
-
+}
+/**************form***********/
 .jumbotron {
   background-color: #A6DED6;
   color: #4A4F52;
@@ -20,24 +19,39 @@
   font-size: 2em;
  }
 .jumbotron p {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Francois One', sans-serif;
   font-weight: .5em;
   text-align: left;
  }
+ label {
+   font-family: 'Francois One', sans-serif;
+
+ }
+ /*********greeting*******/
 #heading {
   margin: 2% 2% 2% 2%;
   padding: 4px 4px 4px 4px;
-  background-color: slateblue;
-  color: black;
+  background-image:url(../img/header.jpg);
+  background-repeat: repeat;
+  color: #9C7D02;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  padding-bottom: 100px;
  }
- #heading p {
+/********reveal********/
+.thumbnail {
   text-align: center;
-  color: black;
- }
+  font-family: 'Francois One', sans-serif;
+  background-color: #A6DED6;
+  padding: 25px 4px 4px 4px;
 
+
+}
+
+/**********body**********/
 body {
   background-image: url("../img/colorfade2.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
  .container {
   max-width: 80%
