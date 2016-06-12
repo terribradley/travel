@@ -25,7 +25,6 @@
  }
  label {
    font-family: 'Francois One', sans-serif;
-
  }
  /*********greeting*******/
 #heading {
@@ -44,15 +43,12 @@
   font-family: 'Francois One', sans-serif;
   background-color: #A6DED6;
   padding: 25px 4px 4px 4px;
-
-
 }
-
 /**********body**********/
 body {
   background-image: url("../img/colorfade2.png");
   background-repeat: repeat;
 }
- .container {
+.container {
   max-width: 80%
- }
+}

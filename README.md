@@ -6,7 +6,9 @@
 
 ## Description
 
-_The page's purpose is to help a user figure out their ideal travel destination. The user is required to answer questions by selecting or inputting their answers into a form. The form processes the information and presents the user with a place they should consider traveling to. _
+_The page's purpose is to help a user figure out their ideal travel destination. The user is required to answer questions by selecting or inputting their answers into a form. The form processes the information and presents the user with a place they should consider traveling to._
+
+**Live link: http://terribradley.github.io/travel/**
 
 ## Setup/Installation Requirements
 
